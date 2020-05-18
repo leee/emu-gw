@@ -1,7 +1,7 @@
 # emu-gw
 E&M Unit Gateway with COM port control for PCs
 
-### Introduction
+## Introduction
 
 This generic hardware gateway was originally designed for use with pairing Zello
 resources with external infrastructure resources together. In this case:
@@ -21,7 +21,7 @@ Our device offers interface connectivity for up to 4 physical resources, whether
 they be donor radios or other gateways. Use of E&M Type II signaling allows for
 two signaling units like a CCGW or RGU to be connected back to back.
 
-### Physical Connectivity and Pinouts
+## Physical Connectivity and Pinouts
 
 The device provides:
 
@@ -67,7 +67,7 @@ then rings should be considered ground and a decision be made on if 3/4 is ring
 and 5/6 is tip or if it should be the other way around, as documented in other
 devices.
 
-### Zello PC Application - Radio Gateway Mode (also Zello@Work Server client)
+## Zello PC Application - Radio Gateway Mode (also Zello@Work Server client)
 
 The software supports radio control in one of three ways:
 * VOX (Voice-Operated Exchange) on RX and/or TX paths. No VAD (Voice Activity
@@ -106,7 +106,7 @@ And for reference, RS-232 pinout:
 
 We provide each resource their own COM port for PTT and COR/COS.
 
-### Motorola CCGWs
+## Motorola CCGWs
 
 GGM CCGWs supports conventional resources in one of three ways:
 * analog resources controlled with E&M (Ear and Mouth, or Earth and Magneto)
@@ -124,7 +124,7 @@ Motorola specifies the GGM only supports E&M interfaces using 4-wire analog
 using E&M Type II control. DC-control or 2-wire audio is explicitly stated not
 supported. We opted to use this signaling method in our device for this reason.
 
-### Donor radio I/O disclaimers
+## Donor radio I/O disclaimers
 
 Our device is compatible with donor radios if their I/O is wired correctly for
 use with E&M. This comes with a lot of caveats.
@@ -194,7 +194,7 @@ half-duplex. This is for status tones like TPT (talk permit) or reject and TOT
 (timeout timer). While Zello doesn't provide a full-duplex audio experience on
 user clients, it could be implemented by them in the future.
 
-### Temporary BOM
+## Temporary BOM
 ```
 sub      unit   qt part
  8.6900  2.1725 4x CMEDIA CM108B
