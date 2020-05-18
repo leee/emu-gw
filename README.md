@@ -21,6 +21,9 @@ Our device offers interface connectivity for up to 4 physical resources, whether
 they be donor radios or other gateways. Use of E&M Type II signaling allows for
 two signaling units like a CCGW or RGU to be connected back to back.
 
+A future revision could provide 8 interfaces, as Zello officially documents
+[being able to run up to 8 concurrent instances of Zello on one PC](https://support.zellowork.com/hc/en-us/articles/207384818-Can-you-run-multiple-instances-of-ZelloWork-).
+
 ## Physical Connectivity and Pinouts
 
 The device provides:
